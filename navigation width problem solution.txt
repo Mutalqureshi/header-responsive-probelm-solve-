@@ -1,0 +1,9 @@
+$(window).resize(function() {
+      "use strict";
+      var somevar = $(window).width();
+      if (somevar >= 769) {
+        // $(".main_menu>nav>ul").removeClass(".main_menu>nav ul");
+        $(".main_menu nav ul").removeAttr("style");
+        // $(".main_menu nav ul").removeAttr("");
+      }
+      })
